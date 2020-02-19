@@ -4,6 +4,7 @@
 # Configuring ~/.zshrc
 mkdir ~/.tasks/
 cp ./tasks/* ~/.tasks
+chmod 777 ~/.tasks/*
 
 # Installing Git, Python, Node JS
 brew install git

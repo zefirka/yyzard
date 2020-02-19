@@ -1,15 +1,12 @@
 export EDITOR=emacs
 
-chmod 777 ~/.tasks/*\
-
-# Common helpers\
-source ~/.tasks/common\
-source ~/.tasks/docker\
+# Common helpers
+source ~/.tasks/common
+source ~/.tasks/docker
 
 ZSH_THEME="half-life"
 
 # Aliases
-
 ## Emacs
 alias emacs="/usr/local/Cellar/emacs/24.x/Emacs.app/Contents/MacOS/Emacs -nw"
 alias e=emacs

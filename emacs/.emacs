@@ -1,5 +1,4 @@
 (setq backup-directory-alist `(("." . "~/.saves")))
-
 (setq mac-option-modifier 'meta)
 
 (setq make-backup-files nil) ; stop creating backup~ files
@@ -17,8 +16,8 @@
 (global-set-key (kbd "C-x C-g l") 'goto-line)
 
 (require 'package)
- (add-to-list 'package-archives
-              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+	(add-to-list 'package-archives
+    	'("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 
